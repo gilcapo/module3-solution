@@ -1,0 +1,150 @@
+body {
+  font-size: 16px;
+  color: #696969;
+  background-color: #DEB887;
+  font-family: sans-serif;
+}
+
+/* * HEADER **/
+
+.container-fluid{
+  background-color: #CD853F;
+  border-radius: 3px;
+  border: 3px solid maroon;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Arial, Helvetica, sans-serif;
+  color: maroon;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 1px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#MainTitle{
+  text-align:  center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color:#A52A2A;
+
+}
+.textcolor a{
+  color:maroon;
+}
+
+.text{
+  padding: auto;
+}
+
+#MainDish  {
+  text-align: center;
+  margin-top: 35px;
+  padding:0 5px 0 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: #222;
+  background-color: #FFFAF0;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+#nav-list a{
+  color: maroon;
+}
+
+#nav-list li{
+  color: maroon;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav-list li:hover {
+  background: gray;
+  border: 1px solid maroon;
+}
+
+#nav-list span {
+  font-size: 1.4em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid maroon;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+
+/****END HOME*****/
+}
+/********** Large devices only **********/
+
+@media (min-width: 1200px){
+
+.navbar-brand h1{
+  font-size: 1.4em;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   .navbar-brand h1{
+    font-size: 1.4em;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1 {
+   font-size: 1.2em;
+ }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 1.1em;
+  }
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+  }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
